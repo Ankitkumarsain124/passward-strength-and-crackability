@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6e7fcd, #3b82f6); /* Linear gradient background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Darkened background for better contrast */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+#strengthMessage {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#securityMessage {
+  margin-top: 10px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.weak {
+  color: red;
+}
+
+.medium {
+  color: orange;
+}
+
+.strong {
+  color: green;
+}
+
+.crackable {
+  color: yellow;
+}
